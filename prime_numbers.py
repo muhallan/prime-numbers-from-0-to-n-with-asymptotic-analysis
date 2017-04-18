@@ -28,9 +28,3 @@ The asymptotic analysis of that algorithm is:
 >> Best case scenario is when the number can be divided by 2,3,5,7,9. The time complexity here is O(1).
 
 """
-
-def main():
-    print(prime_numbers(19))
-
-if __name__ == "__main__":
-    main()
