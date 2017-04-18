@@ -10,7 +10,7 @@ def prime_numbers(number):
     if number in (0, 1):
         return "Zero or One cannot be prime numbers."
 
-    if isinstance(number, int):
+    if not isinstance(number, int):
         return "Only integers are allowed."
 
     for i in range(2, number + 1):
@@ -28,3 +28,9 @@ The asymptotic analysis of that algorithm is:
 >> Best case scenario is when the number can be divided by 2,3,5,7,9. The time complexity here is O(1).
 
 """
+
+def main():
+    print(prime_numbers(19))
+
+if __name__ == "__main__":
+    main()
