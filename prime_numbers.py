@@ -22,6 +22,7 @@ def prime_numbers(number):
                 prime_nums.append(i)
     return prime_nums
 
+
 """
 The asymptotic analysis of that algorithm is:
 Using Big O notation; O(n^2/log n)
